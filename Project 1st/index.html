@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/animate.css" type="text/css">
+    <link rel="stylesheet" href="styles.css">
+    <title id="brand">JAVASCRIPT IS FOR YOU</title>
+</head>
+<body>
+    <header class="animated slideInRight"><h1>JAVASCRIPT IS FOR YOU</h1></header>
+    <div class="topnav">
+    
+        <ul class="nav animated slideRight">
+            <li><a href="/" class="navLink"><em>HOME</em></a>
+            </li>
+            <li>
+                <a href="#conditionals" class="navLink"><em>CONDITIONALS</em></a>
+            </li>
+            <li>
+                <a href="#for loops"  class="navLink"><em>FOR LOOPS</em></a>
+            </li>
+            <li>
+                <a href="#functions"  class="navLink"><em>FUNCTIONS</em></a>
+            <li> 
+                <a href="#objects" class="navLink"><em>OBJECTS</em></a>
+            </li>
+        </ul>
+    </div>
+    <hr class="titleBar" />
+</header>
+   <div>
+     <sidebar id="sidebarWrapper" >
+        <h3>TOP HITS</h3>
+        <div id="sidebarLinks">
+            <h6 class="sidebarTitle">HELPFUL TIPS</h6>
+            <ul class="sidebarList">
+                    <li>
+                      <a class="sidebarLink" target=" _blank" href="https://developer.mozilla.org/en-US/">MDN Web Docs</a>
+                    </li>
+                    <li><a target="_blank" href="https://www.w3schools.com/js/default.asp" class="sidebarLink">w3 schools</a></li>
+                    <li><a target="_blank" href="https://www.youtube.com/user/kudvenkat/playlist" class="sidebarLink">Youtube</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+    </sidebar>
+    <div id="blurb" class="animated">
+        <p>
+            <em>JAVASCRIPT IS FOR YOU</em> strives to teach the concepts of Javascript from beginner level to senior level 
+            with an intense program that prepares you for the tech world out there.</p>
+    </div>
+    <section id="infoContent">
+        <article class="infoBox">
+            <a id="conditionals"></a>
+            <h2>CONDITIONALS</h2>
+            <div class="codeBlock">
+                <pre><code><var>var</var> <span class="varName">RS</span> = 10;
+                    if <var>(RS</var> % 2 ===0 && <va>RS</va> % 5 ===0) {
+                        console.<span class="method">log</span>('rocket science');
+                    } else if <var>(RS</var> % 5 === 0) {
+                        console.<span class="method">log</span>('science');
+                    } else if <var>(RS</var> % 2 === 0) {
+                        console.<span class="method">log</span>('rocket';
+                }
+            </code></pre>
+                </div>
+            <p>Conditionals are important because they determine if a code can be run or not. One of the most important types of conditionals are the ones that use the if/ else statements that are enclosed in (). The example above demonstrates that if <var>RS</var> is true the else if statements will be runned. You can continue an if statement with an else statement to add another conditional.
+
+            </p>
+        </article>
+        <article class="infoBox">
+            <a id="for loops"></a>
+            <h2>FOR LOOPS</h2>
+            <div class="codeBlock">
+                <pre><code>
+                        <span class="keyword">for</span>(i = 10; i>0;i-=1){
+                            console.<span class="method">log</span>(i);
+                        }
+                       </code></pre>
+               </div>
+               <p>If you want to run a code repeatedly until the condition is met then a loop will run. A for loop involves counting, but can get you to the point faster with only 3 lines of code. The example shows that counting 10 to 0 with a for loop will run faster instead of having to literally write all of the numbers out.</p>
+   
+        </article>
+        <article class="infoBox">
+            <a id="functions"></a>
+            <h2>FUNCTIONS</h2>
+            <div class="codeBlock">
+                <pre><code>
+                        <var>let</var> <span class="varName">i</span> = 1;
+                        <var class="functionkey">function</var> <span class="functionName">counting</span>() {
+                       <span class="keyword">while</span>(i<= 10) {
+                           console.<span class="method">log</span>(i),
+                       i ++;
+                       }
+                   }
+                   counting();</span>
+               </code></pre>    
+                       </div>
+                           <p>Functions do not mean anything if they are not called. Like the example above, the example will run numbers 1 throguh 10, but in order for that to happen it will be called by let i = 1;. Then, followed by function counting() the function while(i<=10) will be console.log  and will do a for loop of i ++; and lastly in order for it to execute, it has to be called by counting();</p>
+           
+         </article>
+         <article class="infoBox">
+                <a id="objects"></a>
+                <h2>OBJECTS</h2>
+                <div class="codeBlock">
+                    <pre><code><var>let</var> <span class="varName">garden</span> = {
+                        <span class="key">flower</span>: <span class="stringValue">'Rose'</span>
+                        <span class="key">fruit</span>: <span class="stringValue">'oranges'</span>
+                        <span class="key">sun</span>: <span class="boolValue">true</span>,
+                    }</code></pre>
+
+                </div>
+                <p>Objects can let us store basically any properties and methods. The example above is a property that has a key and value, while the object is garden that has a key of 'flower,' and  has the value of 'Rose'. Objects are like a container that holds a lot of related data.</p>
+
+    </section>
+    <footer>
+        <p>By Jessica Diego</p>
+        <p> &copy; ElevenFifty Academy</p>
+        </footer>
+      </body>
+    </html>

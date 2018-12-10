@@ -1,0 +1,172 @@
+body, html {
+    width: 80%;
+    padding: 0;
+    margin: 1vw;
+    background-color: rgb(155, 161, 96);
+    color: cornflowerblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#topnav {
+    font-size: 420%;
+    margin: 0;
+    position: relative;
+    left: 2vw;
+    top: 9vh;
+    font-weight: 100;
+    max-width: 40%;
+}
+
+#navLinks {
+    display: flex;
+    flex-direction: row;
+    font-size: 140%;
+    width: 20vw;
+    position: relative;
+    left: 35vw;
+    top: 1vh;
+    list-style-type: none;
+}
+
+a.navLink {
+    color: brown;
+    margin-left: 2vw;
+    text-decoration: none;
+}
+
+.navLink :hover {
+    color: rgb(221, 202, 220)
+}
+
+hr.titleBar {
+    height: 2vh;
+    background-color: rgb(85, 73, 84);
+    margin:0 2vw 0 2vw;
+    border-radius: 10px;
+    width: 50%;
+}
+
+#sidebarWrapper {
+    float: right;
+    margin-right: -300px;
+    width: 19vw;
+    height: 60vh;
+    text-align: center;
+}
+
+#sidebarWrapper h6 {
+    margin: 4vh auto auto auto;
+}
+
+#sidebarWrapper h3 {
+    font-weight: 100;
+    font-size: 220%;
+    position: relative;
+    top: 6vh;
+
+}
+
+#sidebarLinks {
+    height: 55vh;
+    width: 20vw;
+    background-color: rgb(151, 151, 151);
+    position: relative;
+    top: 7vh;
+    border-radius: 7px;
+    text-transform: uppercase;
+    margin-top: 3vh;
+    padding-top: 1vh;
+}
+
+a.sidebarLink {
+    color: white;
+    text-decoration: none;
+    margin-right: 2vw;
+}
+
+a.sidebarLink:hover {
+    color: rgb(197, 148, 194);
+}
+
+.sidebarTitle {
+    font-size: 120%;
+    color: rgb(139, 78, 141);
+}
+
+.sidebarList {
+    list-style-type: none;
+    font-size: 120%;
+}
+
+#infoContent {
+    max-width: 65px;
+    margin: 5px 5px 5px 5px;
+}
+
+.infoBox {
+    max-width: 100%;
+    margin: 5vh 0 15vh 0;
+}
+
+.infoBox h2 {
+    text-align: right;
+    margin-right: 3vw;
+    font-size: 240%;
+    font-weight: 400;
+    text-transform: uppercase
+}
+
+.infoBox p {
+    width: 80%;
+    margin: auto;
+    
+}
+
+.codeBlock {
+    background-color: black;
+    color: white;
+    min-height: 15vh;
+    max-height: 50vh;
+    width: 60vw;
+    font-size: 140%;
+    margin: auto auto 3vh auto;
+    padding: 5px 0 5px 15px;
+    border-radius: 10px;
+}
+
+footer {
+    color: white;
+    position: fixed;
+    background-color: rgba(109, 67, 93, 0.9);
+    bottom: 0;
+    height: 12vh;
+    width: 100%;
+    padding-left: 1vw;
+}
+
+code {
+    color: rgb(204, 204, 204);
+}
+
+.functionKey {
+    color: rgb(166, 89, 255)
+}
+
+.functionName {
+    color: rgb(102, 255, 122)
+}
+
+.keyword {
+    color: rgb(209, 5, 5);
+}
+
+.method {
+    color: rgb(191, 250, 135)
+}
+
+.key {
+    color: rgb(191, 101, 209);
+}
+
+
+
